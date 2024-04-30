@@ -369,22 +369,49 @@ body {
 }
 
 /* OUR TEAM */
-.our-team {}
+.our-team .conteiner {
+  margin-top: 49px;
+}
 
 .conteiner {}
 
-.our-team-first-par {}
+.our-team-first-par {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  color: #333;
+  margin-bottom: 16px;
+}
 
-.our-team-lable {}
+.our-team-lable {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  text-align: center;
+  color: #333;
+  margin-bottom: 34px;
+}
 
-.our-team-sec-par {}
+.our-team-sec-par {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  color: #333;
+  margin-bottom: 49px;
+}
 
 .our-team-woker {
   position: relative;
   display: flex;
+  gap: 20px;
+
 }
 
-.our-team-woker-svg {}
+.our-team-woker-svg {
+  display: none;
+}
 
 .overlay {
   position: absolute;
@@ -397,7 +424,25 @@ body {
   transition: opacity 0.3s ease;
 }
 
+.our-team-woker-name {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.27;
+  text-align: center;
+  color: #333;
+  margin-top: 13px;
+  margin-bottom: 12px;
+}
 
+.our-team-woker-job {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  color: #333;
+}
+
+/* 
 .our-team-woker li:hover .overlay {
   opacity: 1;
-}
+} */
