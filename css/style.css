@@ -415,8 +415,25 @@ img {
 
 }
 
+.our-team-woker-li {
+  position: relative;
+}
+
+.our-team-woker-li:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
 .our-team-woker-svg {
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  align-content: center;
+}
+
+.our-team-woker-svg svg {
+  fill: #fff;
 }
 
 .overlay {
@@ -424,10 +441,10 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 77%;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.5s ease;
 }
 
 .our-team-woker-name {
