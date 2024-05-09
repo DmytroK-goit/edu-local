@@ -6,6 +6,7 @@
   --prime-color: #333;
   background-color: #f4f4f4;
   color: #fff;
+  --animate-delay: 5s;
 }
 
 li {
@@ -39,6 +40,15 @@ body {
 img {
   display: block;
 }
+
+.active {
+  background-color: #f0f0f0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 
 
@@ -638,12 +648,18 @@ img {
 
   /* HEADER */
   .header .conteiner {
-    padding: 0 38px;
-    margin: 0 auto;
-    position: absolute;
+    /* padding: 0 38px;
+    margin: 0 auto; */
+    position: fixed;
     top: 0;
     left: 50%;
     transform: translate(-50%, 0);
+    /* width: 100%; */
+    background-color: transparent;
+    /* padding: 10px 0;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    z-index: 1000;
+
   }
 
   .header-nav {
